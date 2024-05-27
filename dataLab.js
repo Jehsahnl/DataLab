@@ -26,7 +26,7 @@ let games = [
     ["Dead Island 2", "Action", "April", "Dambuster Studios", "Deep Silver"],
     ["Bomb Rush Cyberfunk", "Platformer", "August", "Team Reptile", "Team Reptile"],
     ["Blasphemous 2", "Metroidvania", "August", "The Game Kitchen", "Team 17"],]
-// console.log(games)
+console.log(games)
 
 // Part 3: Transforming Data
 // Implement the following:
@@ -41,7 +41,7 @@ let gamesof23 = [
     {Title: "Bomb Rush Cyberfunk", Genre: "Platformer", Month: "August", Developer: "Team Reptile", Publisher: "Team Reptile"},
     {Title: "Blasphemous 2", Genre: "Metroidvania", Month: "August", Developer: "The Game Kitchen", Publisher: "Team 17"}
 ]
-// console.log(gamesof23)
+console.log(gamesof23)
 
 // Part 4: Sorting and Manipulating Data
 // - Remove the last element from the sorted array.
@@ -54,7 +54,7 @@ gamesof23.splice (1, 1, { Title: "Lies of P", Genre: "Soulslike", Month: "Septem
 
 gamesof23.push({ Title: "Baldur's Gate 3", Genre: "Role-playing", Month: "August", Developer: "Larian Studios", Publisher: "Larian Studios"})
 
-// console.log(gamesof23)
+console.log(gamesof23)
 
 //Part 5: Full Circle
 
